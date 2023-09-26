@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid aliceblue;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+main{
+    display: flex;
+}
+
+section img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+/*Mobile*/
+
+@media screen and (max-width: 480px){
+    body{
+        background: linear-gradient(68.15deg, #ff80bf 16.62%, #ffd2e8 85.61%);
+    }
+
+    h1, p{
+        color: #b9206d;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+}
+
+/*Extra small devices*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body{
+        background: linear-gradient(68.15deg, #b866fc 16.62%, #dbb6fa 85.61%);
+    }
+
+    h1, p{
+        color: #481a6d;
+    }
+}
+
+/*Small tablet*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background: linear-gradient(68.15deg, #66c0fc 16.62%, #c1e6ff 85.61%);
+    }
+
+    h1, p{
+        color: #005791;
+    }
+}
+
+/*Tablets/Laptops*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background: linear-gradient(68.15deg, #60c7b1 16.62%, #cafff3 85.61%);
+    }
+
+    h1, p{
+        color: #057059;
+    }
+}
+
+/*Desktop*/
+
+@media (min-width: 1200px) and (max-width: 1999px){
+    body{
+        background: linear-gradient(68.15deg, #74c760 16.62%, #c2ecb8 85.61%);
+    }
+
+    h1, p{
+        color: #2a6e19;
+    }
+}
+
+/*Extra large screens*/
+
+@media (min-width: 1920px){
+    body{
+        background: linear-gradient(68.15deg, #c76360 16.62%, #fcbab7 85.61%);
+    }
+
+    h1, p{
+        color: #831612;
+    }
+}
+
+
